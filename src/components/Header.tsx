@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,16 +34,16 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md shadow-md" : "bg-transparent"
+        isScrolled ? "bg-primary/95 backdrop-blur-md shadow-md" : "bg-primary/90"
       }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-hover bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+            className="hover:opacity-80 transition-opacity"
           >
-            DIACENTER CITY
+            <img src={logo} alt="DIACENTER CITY" className="h-16" />
           </button>
 
           {/* Desktop Navigation */}
@@ -51,7 +52,7 @@ const Header = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-foreground/80 hover:text-primary font-medium transition-colors"
+                className="text-primary-foreground/90 hover:text-primary-foreground font-medium transition-colors"
               >
                 {item.label}
               </button>
@@ -62,7 +63,7 @@ const Header = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="md:hidden text-primary-foreground hover:text-primary-foreground hover:bg-primary-hover"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X /> : <Menu />}
@@ -71,12 +72,12 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <nav className="md:hidden py-4 border-t border-border">
+          <nav className="md:hidden py-4 border-t border-primary-foreground/20">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="block w-full text-left py-3 text-foreground/80 hover:text-primary font-medium transition-colors"
+                className="block w-full text-left py-3 text-primary-foreground/90 hover:text-primary-foreground font-medium transition-colors"
               >
                 {item.label}
               </button>

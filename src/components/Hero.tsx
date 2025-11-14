@@ -11,14 +11,9 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage}
-          alt="Telhas galvanizadas - DIACENTER CITY"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary/70 to-primary/50" />
+      {/* Background with Wine Color */}
+      <div className="absolute inset-0 z-0 bg-primary">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-primary-hover opacity-90" />
       </div>
 
       {/* Content */}
@@ -33,7 +28,7 @@ const Hero = () => {
           <Button
             size="lg"
             onClick={handleWhatsAppClick}
-            className="bg-background text-primary hover:bg-background/90 text-lg px-8 py-6 shadow-2xl"
+            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-6 shadow-2xl border-2 border-primary-foreground"
           >
             <MessageCircle className="mr-2 h-5 w-5" />
             Peça seu Orçamento — Rápido via WhatsApp
