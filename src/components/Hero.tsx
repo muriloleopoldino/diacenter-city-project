@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-telhas.jpg";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "5519999999999"; // Substituir pelo número real
+    const phoneNumber = "5511948990884"; // Substituir pelo número real
     const message = "Olá! Gostaria de solicitar um orçamento de telhas.";
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank");
   };
@@ -22,7 +22,7 @@ const Hero = () => {
           Telhas Galvanizadas e Sanduíche em Descalvado
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-95">
-          Soluções completas em cobertura metálica com qualidade garantida e entrega rápida para sua obra
+          Soluções completas em cobertura metálica com qualidade garantida e entrega rápida para sua obra!
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button
