@@ -19,11 +19,11 @@ const Index = () => {
       image: telhaGalvanizada,
       alt: "Telha galvanizada ondulada - DIACENTER CITY",
       features: [
+        "TP - 40",
         "Alta resistência à corrosão",
         "Durabilidade superior",
         "Fácil instalação",
         "Excelente custo-benefício",
-        "Disponível em diversos tamanhos",
       ],
     },
     {
@@ -32,8 +32,8 @@ const Index = () => {
       image: telhaSanduiche,
       alt: "Telha sanduíche com isolamento térmico - DIACENTER CITY",
       features: [
+        "TP - 40",
         "Isolamento térmico eficiente",
-        "Redução de ruídos",
         "Economia de energia",
         "Design moderno",
         "Ideal para ambientes climatizados",
@@ -77,7 +77,7 @@ const Index = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">Nossos Produtos</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Oferecemos as melhores soluções em telhas galvanizadas para sua obra
+              Oferecemos as melhores soluções em telhas para sua obra
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -94,7 +94,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">Sobre a DIACENTER CITY</h2>
             <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
-              A DIACENTER CITY é referência em Descalvado e região no fornecimento de telhas galvanizadas e sanduíche. 
+              A DIACENTER CITY é referência em Descalvado e região no fornecimento de telhas galvanizadas simples e sanduíches. 
               Trabalhamos com produtos de alta qualidade, garantindo durabilidade e excelente custo-benefício para sua obra.
             </p>
             <p className="text-lg text-foreground/80 leading-relaxed">
@@ -124,7 +124,6 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">Nossa Galeria</h2>
-            <p className="text-lg text-muted-foreground">Veja alguns de nossos trabalhos realizados</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {galleryImages.map((image, index) => (
@@ -224,7 +223,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <p className="text-lg font-semibold mb-2">DIACENTER CITY</p>
           <p className="text-sm opacity-80">Telhas Galvanizadas e Sanduíche em Descalvado - SP</p>
-          <p className="text-xs opacity-60 mt-4">© 2024 DIACENTER CITY. Todos os direitos reservados.</p>
+          <p className="text-xs opacity-60 mt-4">© 2025 DIACENTER CITY. Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>

@@ -28,7 +28,7 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 text-center text-primary-foreground">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in">
-          Telhas Galvanizadas e Sanduíche em Descalvado
+          Telhas Galvanizadas Simples e Sanduíches em Descalvado/Região
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-95">
           Soluções completas em cobertura metálica com qualidade garantida e entrega rápida para sua obra!
