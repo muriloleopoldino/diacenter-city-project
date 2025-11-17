@@ -167,12 +167,12 @@ const Index = () => {
                   <Phone className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Telefone / WhatsApp</h3>
-                    <p className="text-muted-foreground">(19) 99999-9999</p>
+                    <p className="text-muted-foreground">(11) 94899-0884</p>
                     <Button
                       variant="link"
                       className="p-0 h-auto text-primary"
                       onClick={() =>
-                        window.open("https://wa.me/5519999999999?text=Olá! Gostaria de mais informações.", "_blank")
+                        window.open("https://wa.me/5511948990884?text=Olá! Gostaria de mais informações sobre as telhas!", "_blank")
                       }
                     >
                       Falar no WhatsApp
@@ -187,7 +187,7 @@ const Index = () => {
                     <Button
                       variant="link"
                       className="p-0 h-auto text-primary"
-                      onClick={() => window.open("https://instagram.com/diacentercity", "_blank")}
+                      onClick={() => window.open("https://www.instagram.com/diace_ntertelhasgalvanizadas?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", "_blank")}
                     >
                       @diacentercity
                     </Button>
@@ -196,8 +196,7 @@ const Index = () => {
 
                 <div className="pt-4 border-t border-border">
                   <h3 className="font-semibold text-lg mb-2">Horário de Atendimento</h3>
-                  <p className="text-muted-foreground text-sm">Segunda a Sexta: 08:00 - 18:00</p>
-                  <p className="text-muted-foreground text-sm">Sábado: 08:00 - 12:00</p>
+                  <p className="text-muted-foreground text-sm">Segunda a Sexta: 08:00 - 17:00</p>
                 </div>
               </CardContent>
             </Card>
@@ -205,7 +204,7 @@ const Index = () => {
             <Card className="overflow-hidden">
               <CardContent className="p-0 h-full min-h-[400px]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29659.267247384394!2d-47.62124585!3d-21.90513345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8bcfe5c3b9f8d%3A0x8a65c0f8c0c7b0f8!2sDescalvado%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890123!5m2!1spt-BR!2sbr"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236955.28435334662!2d-47.8155779588679!3d-21.87965334225581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b80f53e34bf2e1%3A0x209affca710d65e1!2sDescalvado%20-%20SP%2C%2013690-000!5e0!3m2!1spt-BR!2sbr!4v1763351104385!5m2!1spt-BR!2sbr"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
