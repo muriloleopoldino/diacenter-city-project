@@ -12,7 +12,8 @@ interface ProductCardProps {
 
 const ProductCard = ({ title, description, image, features, alt }: ProductCardProps) => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "5519999999999"; // Substituir pelo número real
+    const phoneNumber = "5511948990884"; // Substituir pelo número real
+
     const message = `Olá, quero orçamento da ${title}`;
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank");
   };
