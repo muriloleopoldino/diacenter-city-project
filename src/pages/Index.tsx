@@ -94,7 +94,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">Sobre a DIACENTER CITY</h2>
             <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
-              A DIACENTER CITY é referência em Descalvado e região no fornecimento de telhas galvanizadas simples e sanduíches. 
+              A DIACENTER CITY é referência em Descalvado e região no fornecimento de telhas galvanizadas simples e sanduíche. 
               Trabalhamos com produtos de alta qualidade, garantindo durabilidade e excelente custo-benefício para sua obra.
             </p>
             <p className="text-lg text-foreground/80 leading-relaxed">
@@ -148,7 +148,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">Entre em Contato</h2>
-            <p className="text-lg text-muted-foreground">Estamos prontos para atender você</p>
+            <p className="text-lg text-muted-foreground">Estamos prontos para atender você!</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -222,7 +222,7 @@ const Index = () => {
       <footer className="bg-accent text-accent-foreground py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-lg font-semibold mb-2">DIACENTER CITY</p>
-          <p className="text-sm opacity-80">Telhas Galvanizadas e Sanduíche em Descalvado - SP</p>
+          <p className="text-sm opacity-80">Telhas Galvanizadas Simples e Sanduíche em Descalvado - SP</p>
           <p className="text-xs opacity-60 mt-4">© 2025 DIACENTER CITY. Todos os direitos reservados.</p>
         </div>
       </footer>
