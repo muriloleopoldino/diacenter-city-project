@@ -5,7 +5,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Clock, Award, MapPin, Phone, Instagram } from "lucide-react";
-import telhaGalvanizada from "@/assets/telha-galvanizada.jpg";
+import telhaGalvanizadaSimples from "@/assets/telha-galvanizada.jpg";
 import telhaSanduiche from "@/assets/telha-sanduiche.jpg";
 import galeria1 from "@/assets/galeria-1.jpg";
 import galeria2 from "@/assets/galeria-2.jpg";
@@ -16,8 +16,8 @@ const Index = () => {
     {
       title: "Telha Galvanizada Simples",
       description: "Solução econômica e resistente para sua cobertura",
-      image: telhaGalvanizada,
-      alt: "Telha galvanizada ondulada - DIACENTER CITY",
+      image: telhaGalvanizadaSimples,
+      alt: "Telha galvanizada simples",
       features: [
         "TP - 40",
         "Alta resistência à corrosão",
@@ -30,7 +30,7 @@ const Index = () => {
       title: "Telha Sanduíche",
       description: "Conforto térmico e acústico premium",
       image: telhaSanduiche,
-      alt: "Telha sanduíche com isolamento térmico - DIACENTER CITY",
+      alt: "Telha sanduíche",
       features: [
         "TP - 40",
         "Isolamento térmico eficiente",
