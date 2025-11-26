@@ -1,4 +1,12 @@
+Sitemap: https://diacentercity.com.br/sitemap.xml
+
 User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
 Allow: /
 
 User-agent: Bingbot
@@ -10,5 +18,19 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
 User-agent: *
 Allow: /
+
+Crawl-delay: 2
